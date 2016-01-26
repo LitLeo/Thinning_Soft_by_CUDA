@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(thinningGuoHall)  
+find_package(OpenCV REQUIRED)  
+add_executable(thinningGuoHall thinningGuoHall)  
+target_link_libraries(thinningGuoHall ${OpenCV_LIBS})  
